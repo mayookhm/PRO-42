@@ -50,6 +50,10 @@ function draw() {
   if(gameState === 2){
     game.end();
   }
+  
+  if(score===100){
+  text('new record',350,10);
+  }
   // Add conditions for gameStates and playerCount
 
 }
