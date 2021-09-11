@@ -19,7 +19,7 @@ class Form{
         this.title.style('font-size', '70px');
         this.title.style('color', 'skyblue');
         this.waring.html("if there is any problem while starting the game please click 'RESET' button");
-        this.waring.style('font-size', '10px');
+        this.waring.style('font-size', '30px');
         this.waring.position(350, 70);
         this.input.position(550,400);
         this.input.style('width', '200px');
